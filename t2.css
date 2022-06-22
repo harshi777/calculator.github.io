@@ -1,0 +1,50 @@
+body{
+    background-image: url('bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    align-content: space-between;
+    margin-left: 500px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+input {
+    height: 40px;
+    width: 600px;
+    font-size: 24px;
+    font-family: "Sofia", sans-serif;
+    border: 2px 2px orange;
+    border-style: double;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+button{
+    background-color:black;
+    opacity: 0.9;
+    color: orange;
+    border: 2px solid goldenrod;
+    font-family: "Sofia", sans-serif;
+    font-size: 24px;
+    height: 50px;
+    width: 80px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+h1{
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px orangered;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 520px;
+    text-decoration: underline;
+}
